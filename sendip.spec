@@ -11,7 +11,6 @@ Group: 		Networking/Other
 Source: 	http://www.earth.li/projectpurple/files/%name-%version.tar.gz
 Patch0:		http://ftp.debian.org/debian/pool/main/s/sendip/sendip_2.5-2.diff.gz
 URL: 		http://www.earth.li/projectpurple/progs/sendip.html
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 
 %description
