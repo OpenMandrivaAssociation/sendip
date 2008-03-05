@@ -6,7 +6,7 @@ Summary: 	A command line tool to allow sending arbitrary IP packets
 Name:    	%name
 Version: 	%version
 Release: 	%release
-License: 	GPL
+License: 	GPLv2
 Group: 		Networking/Other
 Source: 	http://www.earth.li/projectpurple/files/%name-%version.tar.gz
 Patch0:		http://ftp.debian.org/debian/pool/main/s/sendip/sendip_2.5-2.diff.gz
