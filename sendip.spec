@@ -1,6 +1,6 @@
 %define name sendip
 %define version 2.5
-%define release %mkrel 3 
+%define release %mkrel 4
 
 Summary: 	A command line tool to allow sending arbitrary IP packets
 Name:    	%name
@@ -25,7 +25,7 @@ data to be added to the packet.
 %patch0 -p1
 
 %build
-%make
+%make PREFIX=%_prefix
 
 %install
 rm -rf $RPM_BUILD_ROOT
