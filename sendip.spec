@@ -1,6 +1,6 @@
 %define name sendip
 %define version 2.5
-%define release %mkrel 4
+%define release %mkrel 6
 
 Summary: 	A command line tool to allow sending arbitrary IP packets
 Name:    	%name
