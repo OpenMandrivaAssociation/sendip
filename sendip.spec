@@ -43,3 +43,43 @@ rm -fr $RPM_BUILD_ROOT
 %{_libdir}/sendip/*.so
 %doc README CHANGES LICENSE TODO
 
+
+
+%changelog
+* Tue Sep 08 2009 Thierry Vignaud <tvignaud@mandriva.com> 2.5-8mdv2010.0
++ Revision: 433691
+- rebuild
+
+* Sat Aug 02 2008 Thierry Vignaud <tvignaud@mandriva.com> 2.5-7mdv2009.0
++ Revision: 260624
+- rebuild
+
+* Tue Jul 29 2008 Thierry Vignaud <tvignaud@mandriva.com> 2.5-6mdv2009.0
++ Revision: 252312
+- rebuild
+
+* Wed Mar 05 2008 Gustavo De Nardin <gustavodn@mandriva.com> 2.5-4mdv2008.1
++ Revision: 179350
+- fixed license tag
+- set correct PREFIX when building, so it looks for modules in the right place, and actually works
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Mon Dec 17 2007 Thierry Vignaud <tvignaud@mandriva.com> 2.5-3mdv2008.1
++ Revision: 127170
+- kill re-definition of %%buildroot on Pixel's request
+- import sendip
+
+
+* Wed Apr 05 2006 Erwan Velu <velu@seanodes.com> 2.5-3mdk
+- Fixing libdir for x86_64
+
+* Mon Mar 20 2006 Erwan Velu <velu@seanodes.com> 2.5-2mdk
+- Using debian's patch to make it compile cleanly
+- mkrel
+
+* Wed Jan 12 2004 Erwan Velu <velu@seanodes.com> 2.5-1mdk
+- Initial mdk package
+
+
